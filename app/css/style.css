@@ -1,0 +1,533 @@
+/*COLORS
+light gray: #ebedef
+light blue: #3b99fc;
+*/
+.discovery-ir .site-main {
+  margin-top: 0;
+}
+.page-template-investor #primary {
+  padding: 0 2%;
+}
+.page-template-investor .tint {
+  width: 100%;
+}
+.page-template-investor #primary p .tint:before {
+  opacity: 0;
+}
+.page-template-investor h1.entry-title {
+  font-size: 3rem;
+  font-weight: 300px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page-template-investor h2:first-of-type {
+  font-size: 2.5rem;
+}
+
+.page-template-investor .wds-accordion .wds-accordion-section {
+  padding: 0;
+}
+
+.page-template-investor .wds-accordion h3 {
+  padding: 15px;
+  font-size: 1.25rem;
+}
+
+.page-template-investor .wds-accordion ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.page-template-investor .wds-accordion li {
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.page-template-investor .wds-accordion li li {
+  border-bottom: none;
+  line-height: 1.2;
+  padding: 5px 15px;
+}
+
+.page-template-investor .wds-accordion li li:last-child {
+  padding-bottom: 0;
+}
+
+.page-template-investor .current-nav {
+  position: relative;
+}
+
+.page-template-investor .current-nav > a:before {
+  content:"\f054";
+  position: absolute;
+  top: 21px;
+  left: 3px;
+  display: inline-block;
+  font: normal normal normal 12px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  width: 12px;
+  height: 12px;
+}
+.page-template-investor li .current-nav > a:before {
+  top: 8px;
+}
+.page-template-investor .current-nav > a {
+  color: #272525;
+  pointer-events: none;
+
+}
+
+.page-template-investor .stock-quote .sub-title {
+  padding: 20px 2% 20px 2%;
+  display: block;
+  text-align: center;
+}
+
+.page-template-investor .stock-quote .stock-header {
+  padding: 15px 0 5px 0;
+}
+
+.page-template-investor .stock-header h4 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  color: #272525;
+}
+
+.page-template-investor .stock-quote {
+  
+}
+
+.page-template-investor .stock-quote p {
+  padding: 1% 8%;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.page-template-investor .stock-quote select {
+  display: inherit;
+}
+
+.page-template-investor .stock-quote .button {
+  margin: 20px 0 0 8%;
+  width: 150px;
+  display: block;
+  text-align: center;
+  padding: 9px 15px 6px;
+}
+
+.page-template-investor .stock-listing {
+  line-height: 1.3;
+  font-size: 0.9rem;
+  padding: 0 8% 0 8%;
+}
+
+.page-template-investor .stock-listing dl {
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+.page-template-investor .stock-listing dt {
+  color: #768696;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  opacity: 0.85;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-top: 15px;
+}
+
+.page-template-investor .stock-listing dd {
+  margin: 0 0 10px 0;
+} 
+
+.page-template-investor .stock-listing .stock-down {
+  color: #d4273c;
+  position: relative;
+  padding-left: 15px;
+}
+.page-template-investor .stock-listing .stock-down:before {
+  content:'\25BC';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+.page-template-investor .stock-listing .stock-up {
+  color: #2b8f44;
+  position: relative;
+  padding-left: 15px;
+}
+.page-template-investor .stock-listing .stock-up:before {
+  content:'\25B2';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.page-template-investor .stock-listing strong {
+  font-size: 1.25rem;
+}
+
+.page-template-investor .main-stock-quote .stock-listing {
+  font-size: 1em;
+}
+
+.page-template-investor .main-stock-quote dt {
+  display: inline-block;
+  width: 40%;
+}
+
+.page-template-investor .main-stock-quote dd {
+  display: inline-block;
+  width: 40%;
+}
+
+ .page-template-investor .investor-pubs {
+  margin-top: 30px;
+ }
+
+.investor-pubs figure {
+  margin-bottom: 1px;
+/*  width: calc(50% - 20px);
+  float: left;*/
+  position: relative;
+  margin-right: 10px;
+}
+.investor-pubs figure img {
+  width: 100%;
+}
+.investor-pubs .fa {
+  font-size: 1.25rem;
+  color: #FFF;
+  display: block;
+  width: 22px;
+  padding: 0 0 10px 3px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+/* .page-template-investor .investor-pubs img {
+  margin-right: 10px;
+  float: left;
+  width: 20%;
+ }*/
+
+.investor-pubs figcaption {
+  z-index: 10;
+  margin-top: 10px;
+  line-height: 1.1;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #FFF;
+}
+
+/*.investor-pubs figcaption h5 {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: rgba(235,237,239,0.90);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 50px;
+  letter-spacing: 1px;
+} */
+
+.page-template-investor .wds-corporate-newsroom-widget li.news {
+  margin-bottom: 40px;
+}
+
+.page-template-investor .main-section .list {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 20px 0 0 0;
+  list-style: none;
+  border-top: 1px solid #ccd3d9;
+}
+
+.page-template-investor .main-section .entry-title {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  font-family: 'Proxima Nova', 'Proxima N W01 Reg', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  padding: 0;
+}
+
+.page-template-investor .main-section .posted-on {
+  font-family: 'Roboto Slab', Georgia, Times, 'Times New Roman', serif;
+  font-size: .875rem;
+  text-transform: uppercase;
+  color: #768696;
+}
+
+.page-template-investor .main-section .entry-title a {
+  color: #272525;
+}
+
+.page-template-investor .main-section a.more {
+  color: #3b99fc;
+}
+
+.page-template-investor .main-section a:hover {
+  text-decoration: none;
+}
+
+.page-template-investor .main-section .fa {
+  font-size: 1.15rem;
+  color: #768696;
+  display: inline-block;
+  border-right: 1px solid rgba(118,134,150,0.5);
+  padding-right: 10px;
+  margin-right: 8px;
+ }
+
+.page-template-investor h3.ui-accordion-header {
+  margin-top: 1px;
+}
+
+.page-template-investor .toolkit .fa {
+  font-size: 1rem;
+  color: #768696;
+  display: inline-block;
+  padding-right: 10px;
+  width: 22px;
+}
+
+.menu-back, .menu-back:visited {
+  font-size: .6875rem;
+  position: absolute;
+  top: 0;
+  display: block;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #9e9e9e;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.menu-back:before, .menu-back:visited:before {
+  content: "\f100";
+  font-family: 'FontAwesome';
+  font-size: 2.45rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: block;
+  color: white;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+/*TABLE STYLES*/
+
+.stock-table tr, tr.ccbnBgTblEven {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.stock-table tr:first-of-type, tr.ccbnBgTblEven:first-of-type {
+  border-bottom: 3px solid #3b99fc;
+}
+
+.stock-table tr:hover, tr.ccbnBgTblEven:hover {
+  background-color: #f7f8f8;
+}
+
+.stock-table td, td.ccbnBgTblLabelLeft {
+  padding: 15px 20px 15px 5px;
+}
+.investor-sidebar .stock-table td, .investor-sidebar td.ccbnBgTblLabelLeft {
+  padding: 10px 5px 10px 2px;
+}
+.investor-sidebar .ccbnTblTxt {
+  font-size: 0.9rem;
+}
+.ccbnTblTxt + .ccbnTblTxt {
+  font-size: 0.7em;
+}
+.stock-table .tint, .ccbnBgTblEven .tint {
+  display: inline;
+}
+
+.stock-table .tint:before, .ccbnBgTblEven .tint:before {
+  background: none;
+}
+.ccbnNeg {
+  color: #d4273c;
+}
+.ccbnPos {
+  color: #2b8f44;
+}
+.ccbnTblLabelLeft {
+  color: #768696;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  opacity: 0.85;
+  padding-top: 15px;
+}
+/*td.ccbnBgTblLabelLeft {
+  min-width: 300px;
+}*/
+.ccbnPrice {
+  font-size: 1.5rem;
+}
+.entry-content .ccbnTblSubLnk {
+  line-height: 1;
+  padding: 9px 45px 6px;
+  color: #fff;
+  border: 3px solid;
+  border-color: #3b99fc;
+  border-radius: 4px;
+  background: #3b99fc;
+  margin: 20px 0 0 0;
+  width: 150px;
+  display: block;
+  text-align: center;
+  padding: 9px 15px 6px;
+}
+
+table select {
+  padding: 10px 30px 10px 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.newsroom.list h4 {
+  line-height: 1.2;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+@media (min-width: 48em) {
+  .page-wrap {
+    padding-top: 72px;
+  }
+  #primary {
+    margin-right: 0;
+    width: 75.872%;
+    float: left;
+    padding: 0;
+  }
+  #secondary {
+    margin-right: 3.12766%;
+    width: 21%;
+    float: left;
+  }
+  .page-template-investor .investor-main {
+    width: calc( 100% - 250px);
+    float: left;
+  }
+  .page-template-investor .investor-sidebar {
+    float: left;
+  } 
+  .page-template-investor h2:first-of-type {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+/*  .page-template-investor .investor-pubs figure {
+    float: left;
+    width: calc(50% - 20px);
+    overflow: hidden;
+    position: relative;
+  }*/
+
+  .page-template-investor aside .stock-quote {
+    width: 215px;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .wds-accordion .ui-state-default.ui-state-active .ui-icon, .wds-accordion .ui-state-default .ui-icon {
+    background-image: none;
+  }
+  
+  .ui-accordion-header {
+    pointer-events: none;
+  }
+
+  .toolkit {
+    margin-top: 50px;
+  }
+  .page-template-investor h3.ui-accordion-header {
+    margin-top: 1em;
+  }
+  .page-template-investor h1.entry-title {
+    font-size: 4.5rem;
+    margin-top: 100px;
+  }
+  .page-template-investor .main-section .list {
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 85.375em) {
+  .menu-back, .menu-back:visited {
+    margin: 36px 30px 30px;
+    padding: 10px 20px;
+  }
+}
+@media (min-width: 64em) {
+  .widget.wds-corporate-newsroom-widget {
+    margin: 25px auto;
+  }
+}
+@media (max-width: 47em) {
+  .discovery-ir .site-main {
+    margin-top: -10px;
+  }
+  #secondary .wds-accordion-section[style] {
+    display: block !important;
+  }
+  
+  #secondary .ui-accordion-header {
+    position: relative;
+  }
+
+  #secondary .ui-accordion-header-active + .wds-accordion-section[style] {
+    display: none !important;
+  }
+
+  #secondary .ui-accordion-header:before {
+    content:"\f078";
+    position: absolute;
+    top: 21px;
+    right: 15px;
+    display: inline-block;
+    font: normal normal normal 12px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    width: 12px;
+    height: 12px;
+  }
+  #secondary .ui-accordion-header-active:before {
+    content:"\f054";
+  }
+  #secondary .wds-accordion .ui-accordion-header-icon {
+    display: none;
+  }
+}
