@@ -402,9 +402,34 @@ light blue: #3b99fc;
 }
 
 table select {
-  padding: 10px 30px 10px 20px;
+  padding: 10px 40px 10px 20px;
   position: relative;
   margin-bottom: 20px;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  border-radius: 5px;
+}
+
+.select-span {
+    position: relative;
+}
+
+.select-span:after {
+  content:"\f0dc";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  display: inline-block;
+  font: normal normal normal 15px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+  z-index: 10;
 }
 
 .newsroom.list h4 {
