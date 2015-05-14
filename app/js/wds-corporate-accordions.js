@@ -22,12 +22,18 @@ window.WDS_Corporate_Accordions = window.WDS_Corporate_Accordions || (function(w
 		$c.window     = $(window);
 		$c.body       = $(document.body);
 		$c.accordions = $c.body.find('.wds-accordion');
+		$c.tableAccordion= $c.body.find('.table-accordion');      
 	};
 
 	that.initAccordions = function() {
 		$c.accordions.accordion({
 			collapsible: true,
 			heightStyle: 'content'
+		});
+		$c.tableAccordion.accordion({
+			collapsible: true,
+			heightStyle: 'content',
+			active: false
 		});
 	};
 
