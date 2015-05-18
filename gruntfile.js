@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         connect: {
-            corp_investor: {
+            portal_splash: {
                 port: 9000,
                 base: 'app'
             }
@@ -11,6 +11,6 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-connect');
-    grunt.registerTask('default', 'connect:corp_investor');
+    grunt.registerTask('default', 'connect:portal_splash');
 
 };
