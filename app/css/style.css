@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    opacity: 0;
+    position: relative;
+    top: 200px;
+}
+.main img {
+    width: 100%;
+}
+.close-btn {
+    display: block;
+    background-color: purple;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #FFF;
+}
