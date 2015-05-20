@@ -8,7 +8,7 @@ html, body {
     text-align: center;
     opacity: 0;
     position: relative;
-    top: 200px;
+    top: -200px;
 }
 .main img {
     width: 100%;
